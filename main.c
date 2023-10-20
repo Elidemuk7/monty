@@ -1,13 +1,11 @@
 #include "monty.h"
 bus_t bus = {NULL, NULL, NULL, 0};
-
 /**
- * main - Entry point for the Monty code interpreter.
- * @argc: Number of command-line arguments.
- * @argv: Array of command-line argument strings.
- * Return: 0 on success.
-*/
-
+ * main - Entry point for the Monty code interpreter
+ * @argc: Number of command-line arguments
+ * @argv: Array of command-line arguments
+ * Return: 0 on success
+ */
 int main(int argc, char *argv[])
 {
 	char *content;
@@ -45,3 +43,4 @@ int main(int argc, char *argv[])
 	fclose(file);
 return (0);
 }
+
