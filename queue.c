@@ -6,7 +6,8 @@
  * @counter: Line number
  * Return: No return value
  */
-void queue_p(stack_t **head, unsigned int counter)
+
+void f_queue(stack_t **head, unsigned int counter)
 {
 	(void)head;
 	(void)counter;
@@ -19,6 +20,7 @@ void queue_p(stack_t **head, unsigned int counter)
  * @n: New value to be added
  * Return: No return value
  */
+
 void addqueue(stack_t **head, int n)
 {
 	stack_t *new_node, *aux;
@@ -47,4 +49,3 @@ void addqueue(stack_t **head, int n)
 		new_node->prev = aux;
 	}
 }
-

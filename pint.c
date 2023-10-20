@@ -7,6 +7,7 @@
  * Description: This function prints the integer value at the top of the stack.
  * If the stack is empty, it prints an error message and exits with failure status.
  */
+
 void f_pint(stack_t **head, unsigned int counter)
 {
 	if (*head == NULL)

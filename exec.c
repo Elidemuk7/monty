@@ -12,10 +12,11 @@
  *
  * Return: 0 if the execution is successful, 1 if there's an error.
  */
+
 int execute(char *content, stack_t **stack, unsigned int counter, FILE *file)
 {
 	instruction_t opst[] = {
-				{"push", push_p}, {"pall", pall_p}, {"pint", f_pint},
+				{"push", f_push}, {"pall", f_pall}, {"pint", f_pint},
 				{"pop", f_pop},
 				{"swap", f_swap},
 				{"add", f_add},
@@ -28,7 +29,7 @@ int execute(char *content, stack_t **stack, unsigned int counter, FILE *file)
 				{"pstr", f_pstr},
 				{"rotl", f_rotl},
 				{"rotr", f_rotr},
-				{"queue", queue_p},
+				{"queue", f_queue},
 				{"stack", f_stack},
 				{NULL, NULL}
 				};

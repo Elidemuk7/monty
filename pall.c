@@ -8,7 +8,8 @@
  * Description: This function prints all elements of the stack from top to
  * bottom.
  */
-void pall_p(stack_t **head, unsigned int counter)
+
+void f_pall(stack_t **head, unsigned int counter)
 {
 	stack_t *h;
 	(void)counter;
