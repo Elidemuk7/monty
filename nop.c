@@ -6,7 +6,7 @@
  * @counter: Line number of the instruction.
  * Return: No return value.
  */
- 
+
 void f_nop(stack_t **head, unsigned int counter)
 {
 	(void) counter;

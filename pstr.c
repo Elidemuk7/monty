@@ -10,7 +10,7 @@
  * the stack until a value outside the printable ASCII range is encountered or
  * the stack is empty. It appends a newline character after the string.
  */
- 
+
 void f_pstr(stack_t **head, unsigned int counter)
 {
 	stack_t *h;

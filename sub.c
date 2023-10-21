@@ -4,13 +4,9 @@
  * f_sub - Subtracts the top element of the stack from the second top element.
  * @head: Pointer to the stack's head.
  * @counter: Line number of the instruction.
- * Return: No return value.
- *
- * Description: This function subtracts the top element of the stack from
- * the second top element and updates the result as the new top element.
- * If there are fewer than two elements in the stack, it reports an error.
+ * Return: No return value
  */
- 
+
 void f_sub(stack_t **head, unsigned int counter)
 {
 	stack_t *aux;

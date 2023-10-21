@@ -1,4 +1,5 @@
 #include "monty.h"
+
 /**
  * f_pint - Prints the value at the top of the stack.
  * @head: A pointer to the stack head.

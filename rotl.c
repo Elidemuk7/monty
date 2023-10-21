@@ -10,7 +10,7 @@
  * bottom while the rest of the elements move up. If the stack is empty or
  * contains only one element, no rotation occurs.
  */
- 
+
 void f_rotl(stack_t **head,  __attribute__((unused)) unsigned int counter)
 {
 	stack_t *tmp = *head, *aux;

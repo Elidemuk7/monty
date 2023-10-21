@@ -10,7 +10,7 @@
  * value at the top of the stack. It ensures that the stack is not empty and
  * that the value is within the valid character range (0-127) before printing.
  */
- 
+
 void f_pchar(stack_t **head, unsigned int counter)
 {
 	stack_t *h;

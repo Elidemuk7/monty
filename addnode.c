@@ -8,7 +8,7 @@
  * Description: This function creates a new node and adds it to the head
  * of a doubly linked list. It also updates the pointers accordingly.
  */
- 
+
 void addnode(stack_t **head, int n)
 {
 
